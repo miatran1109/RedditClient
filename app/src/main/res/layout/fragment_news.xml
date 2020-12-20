@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/news"
+    android:orientation="vertical"
+    tools:context=".NewsFragment">
+
+    <RelativeLayout
+        android:id="@+id/news_day"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:id="@+id/day_and_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:fontFamily="@font/helvetica"
+            android:text="@string/mon"
+            android:textSize="15dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="15dp"
+            android:adjustViewBounds="true"
+            android:maxWidth="15dp"
+            android:maxHeight="15dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/bars_solid" />
+    </RelativeLayout>
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:id="@+id/news_tags"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal">
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:maxHeight="10dp"
+                android:layout_marginLeft="10dp"
+                android:paddingRight="5dp"
+                android:paddingLeft="5dp"
+                android:text="All Stories"
+                android:textColor="@color/white"
+                android:background="@drawable/black_button"/>
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:maxHeight="10dp"
+                android:layout_marginLeft="10dp"
+                android:paddingRight="5dp"
+                android:paddingLeft="5dp"
+                android:text="US/World"
+                android:textColor="@color/black"
+                android:background="@drawable/white_button"/>
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:maxHeight="10dp"
+                android:layout_marginLeft="10dp"
+                android:paddingRight="5dp"
+                android:paddingLeft="5dp"
+                android:text="Politics"
+                android:textColor="@color/black"
+                android:background="@drawable/white_button"/>
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:maxHeight="10dp"
+                android:layout_marginLeft="10dp"
+                android:paddingRight="5dp"
+                android:paddingLeft="5dp"
+                android:text="Technology"
+                android:textColor="@color/black"
+                android:background="@drawable/white_button"/>
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:maxHeight="10dp"
+                android:layout_marginLeft="10dp"
+                android:paddingRight="5dp"
+                android:paddingLeft="5dp"
+                android:text="University"
+                android:textColor="@color/black"
+                android:background="@drawable/white_button"/>
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+
+    <ScrollView
+        android:id="@+id/news_contents_scroll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white">
+
+        <RelativeLayout
+            android:id="@+id/news_contents"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp">
+
+            <TextView
+                android:id="@+id/news_title_tag"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:text="@string/bullet" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="15dp"
+                android:adjustViewBounds="true"
+                android:maxWidth="15dp"
+                android:maxHeight="15dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ellipsis_h_solid" />
+
+            <TextView
+                android:id="@+id/awards"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/news_title_tag"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:text="18 Awards" />
+
+            <TextView
+                android:id="@+id/news_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/awards"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:text="@string/title"
+                android:textColor="@color/black" />
+
+            <ImageView
+                android:id="@+id/title_img"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/news_title"
+                android:adjustViewBounds="true"
+                android:maxWidth="400dp"
+                android:maxHeight="300dp"
+                android:scaleType="fitCenter"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/pic_square" />
+
+            <LinearLayout
+                android:id="@+id/news_info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/title_img"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="15dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/voting"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp"
+                        android:adjustViewBounds="true"
+                        android:maxWidth="15dp"
+                        android:maxHeight="15dp"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/long_arrow_alt_up_solid" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp"
+                        android:text="69.9k" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp"
+                        android:adjustViewBounds="true"
+                        android:maxWidth="15dp"
+                        android:maxHeight="15dp"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/long_arrow_alt_down_solid" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/comment"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp"
+                        android:adjustViewBounds="true"
+                        android:maxWidth="15dp"
+                        android:maxHeight="15dp"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/comment_alt_solid" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="100" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/share"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp"
+                        android:adjustViewBounds="true"
+                        android:maxWidth="15dp"
+                        android:maxHeight="15dp"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/share_square_solid" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Share" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/gift"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:adjustViewBounds="true"
+                        android:maxWidth="15dp"
+                        android:maxHeight="15dp"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/gift_solid" />
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+
+    </ScrollView>
+</LinearLayout>
