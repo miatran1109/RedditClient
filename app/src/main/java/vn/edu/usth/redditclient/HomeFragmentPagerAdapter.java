@@ -33,8 +33,7 @@ public class HomeFragmentPagerAdapter extends FragmentPagerAdapter {
     }
     @Override
     public CharSequence getPageTitle(int page) {
-// returns a tab title corresponding to the specified page
+    // returns a tab title corresponding to the specified page
         return titles[page];
     }
-}
 }
