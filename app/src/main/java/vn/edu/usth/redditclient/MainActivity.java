@@ -1,6 +1,8 @@
 package vn.edu.usth.redditclient;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.viewpager.widget.PagerAdapter;
+import androidx.viewpager.widget.ViewPager;
 
 import android.os.Bundle;
 
@@ -14,10 +16,10 @@ public class MainActivity extends AppCompatActivity {
 //        PopularFragment popularFragment = new PopularFragment();
 //        getSupportFragmentManager().beginTransaction()
 //                .add(android.R.id.content, popularFragment).commit();
-
-        NewsFragment newsFragment = new NewsFragment();
-        // Add the fragment to the 'container' FrameLayout
-        getSupportFragmentManager().beginTransaction()
-                .add(android.R.id.content, newsFragment).commit();
+        PagerAdapter adapter = new HomeFragmentPagerAdapter(
+                getSupportFragmentManager());
+        ViewPager pager = (ViewPager) findViewById(R.id.view_pager);
+        pager.setOffscreenPageLimit(3);
+        pager.setAdapter(adapter);
     }
 }
