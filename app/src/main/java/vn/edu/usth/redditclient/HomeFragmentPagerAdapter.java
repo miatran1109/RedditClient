@@ -13,7 +13,7 @@ import android.view.ViewGroup;
 
 public class HomeFragmentPagerAdapter extends FragmentPagerAdapter {
     private final int PAGE_COUNT = 3;
-    private String titles[] = new String[] { "Home", "News", "Popular" };
+    private String titles[] = new String[] { "News", "Home", "Popular" };
     public HomeFragmentPagerAdapter(FragmentManager fm) {
         super(fm);
     }
@@ -25,8 +25,8 @@ public class HomeFragmentPagerAdapter extends FragmentPagerAdapter {
     public Fragment getItem(int page) {
 // returns an instance of Fragment corresponding to the specified page
         switch (page) {
-            case 0: return new H();
-            case 1: return new NewsFragment();
+            case 0: return new NewsFragment();
+            case 1: return new H();
             case 2: return new PopularFragment();
         }
         return new H(); // failsafe
