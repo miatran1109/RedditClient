@@ -8,6 +8,10 @@
         "source": "D:\\USTH\\MobileApp\\RedditClient\\app\\src\\main\\res\\drawable\\dot.png"
     },
     {
+        "merged": "D:\\USTH\\MobileApp\\RedditClient\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_fake_news.xml.flat",
+        "source": "D:\\USTH\\MobileApp\\RedditClient\\app\\src\\main\\res\\layout\\fragment_fake_news.xml"
+    },
+    {
         "merged": "D:\\USTH\\MobileApp\\RedditClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable_small_pic.png.flat",
         "source": "D:\\USTH\\MobileApp\\RedditClient\\app\\src\\main\\res\\drawable\\small_pic.png"
     },

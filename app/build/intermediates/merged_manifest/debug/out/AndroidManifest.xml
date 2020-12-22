@@ -17,7 +17,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:testOnly="true"
-        android:theme="@style/Theme.RedditClient" >
+        android:theme="@style/Theme.AppCompat.NoActionBar" >
         <activity android:name="vn.edu.usth.redditclient.MainActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
