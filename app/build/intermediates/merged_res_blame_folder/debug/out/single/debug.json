@@ -20,12 +20,12 @@
         "source": "D:\\USTH\\MobileApp\\RedditClient\\app\\src\\main\\res\\drawable\\fire.png"
     },
     {
-        "merged": "D:\\USTH\\MobileApp\\RedditClient\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "D:\\USTH\\MobileApp\\RedditClient\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
-    },
-    {
         "merged": "D:\\USTH\\MobileApp\\RedditClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable_white_button.xml.flat",
         "source": "D:\\USTH\\MobileApp\\RedditClient\\app\\src\\main\\res\\drawable\\white_button.xml"
+    },
+    {
+        "merged": "D:\\USTH\\MobileApp\\RedditClient\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "D:\\USTH\\MobileApp\\RedditClient\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
     },
     {
         "merged": "D:\\USTH\\MobileApp\\RedditClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable_black_button.xml.flat",

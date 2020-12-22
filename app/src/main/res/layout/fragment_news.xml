@@ -264,8 +264,13 @@
                         android:scaleType="fitCenter"
                         android:src="@drawable/gift_solid" />
                 </LinearLayout>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/abc_vector_test"/>
+
             </LinearLayout>
         </RelativeLayout>
-
     </ScrollView>
 </LinearLayout>

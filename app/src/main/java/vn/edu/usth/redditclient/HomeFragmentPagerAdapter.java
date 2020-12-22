@@ -13,7 +13,7 @@ import android.view.ViewGroup;
 
 public class HomeFragmentPagerAdapter extends FragmentPagerAdapter {
     private final int PAGE_COUNT = 3;
-    private String titles[] = new String[] { "Hanoi", "Paris", "Toulouse" };
+    private String titles[] = new String[] { "Home", "News", "Popular" };
     public HomeFragmentPagerAdapter(FragmentManager fm) {
         super(fm);
     }
