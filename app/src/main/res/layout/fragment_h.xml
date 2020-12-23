@@ -81,7 +81,14 @@
         android:id="@+id/detailFragment"
         android:name="vn.edu.usth.redditclient.FakeNews"
         android:layout_width="match_parent"
-        android:layout_height="0dp"
+        android:layout_height="wrap_content"
         android:layout_weight="1"
         tools:layout="@layout/fragment_fake_news"/>
+
+    <fragment
+        android:id="@+id/nav_"
+        android:name="vn.edu.usth.redditclient.NavFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout="@layout/fragment_nav"/>
 </LinearLayout>

@@ -46,6 +46,7 @@
             android:layout_marginBottom="10dp"
             android:orientation="horizontal">
             <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/button_1"
                 android:layout_width="wrap_content"
                 android:layout_height="20dp"
                 android:maxHeight="10dp"
@@ -56,6 +57,7 @@
                 android:textColor="@color/white"
                 android:background="@drawable/black_button"/>
             <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/button_2"
                 android:layout_width="wrap_content"
                 android:layout_height="20dp"
                 android:maxHeight="10dp"
@@ -66,6 +68,7 @@
                 android:textColor="@color/black"
                 android:background="@drawable/white_button"/>
             <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/button_3"
                 android:layout_width="wrap_content"
                 android:layout_height="20dp"
                 android:maxHeight="10dp"
@@ -76,6 +79,7 @@
                 android:textColor="@color/black"
                 android:background="@drawable/white_button"/>
             <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/button_4"
                 android:layout_width="wrap_content"
                 android:layout_height="20dp"
                 android:maxHeight="10dp"
@@ -86,6 +90,7 @@
                 android:textColor="@color/black"
                 android:background="@drawable/white_button"/>
             <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/button_5"
                 android:layout_width="wrap_content"
                 android:layout_height="20dp"
                 android:maxHeight="10dp"
@@ -107,4 +112,10 @@
         android:layout_height="0dp"
         android:layout_weight="1"
         tools:layout="@layout/fragment_fake_news"/>
+    <fragment
+        android:id="@+id/nav_"
+        android:name="vn.edu.usth.redditclient.NavFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout="@layout/fragment_nav"/>
 </LinearLayout>

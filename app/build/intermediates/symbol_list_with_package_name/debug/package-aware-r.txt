@@ -1538,6 +1538,7 @@ drawable avd_show_password
 drawable bars_solid
 drawable black_button
 drawable black_rec
+drawable blank_circle
 drawable blue_arrow
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
@@ -1547,6 +1548,7 @@ drawable btn_radio_off_mtrl
 drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
+drawable chat
 drawable comment_alt_solid
 drawable design_bottom_navigation_item_background
 drawable design_fab_background
@@ -1559,6 +1561,7 @@ drawable ellipsis_h_solid
 drawable fire
 drawable fire_1
 drawable gift_solid
+drawable ic_baseline_search_24
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable ic_mtrl_checked_circle
@@ -1567,6 +1570,7 @@ drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
 drawable long_arrow_alt_down_solid
 drawable long_arrow_alt_up_solid
+drawable mail
 drawable material_ic_calendar_black_24dp
 drawable material_ic_clear_black_24dp
 drawable material_ic_edit_black_24dp
@@ -1600,13 +1604,16 @@ drawable notify_panel_notification_icon_bg
 drawable pic
 drawable pic_square
 drawable pin
+drawable posting
 drawable rec_black
 drawable rec_white
+drawable reddit_logo
 drawable rocket_solid_1
 drawable share_square_solid
 drawable small_pic
 drawable small_science
 drawable small_tech
+drawable square
 drawable test_custom_background
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
@@ -1707,6 +1714,11 @@ id blocking
 id bottom
 id bounce
 id buttonPanel
+id button_1
+id button_2
+id button_3
+id button_4
+id button_5
 id cache_measures
 id cancel_action
 id cancel_button
@@ -1854,6 +1866,8 @@ id mtrl_picker_text_input_range_end
 id mtrl_picker_text_input_range_start
 id mtrl_picker_title_text
 id multiply
+id nav_
+id nav_bar
 id navigation_header_container
 id never
 id news_contents
@@ -2091,6 +2105,7 @@ layout design_text_input_start_icon
 layout fragment_fake_news
 layout fragment_h
 layout fragment_home_pager_adapter
+layout fragment_nav
 layout fragment_news
 layout fragment_popular
 layout mtrl_alert_dialog

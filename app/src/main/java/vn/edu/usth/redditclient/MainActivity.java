@@ -5,6 +5,8 @@ import androidx.viewpager.widget.PagerAdapter;
 import androidx.viewpager.widget.ViewPager;
 
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -21,5 +23,13 @@ public class MainActivity extends AppCompatActivity {
         ViewPager pager = (ViewPager) findViewById(R.id.view_pager);
         pager.setOffscreenPageLimit(3);
         pager.setAdapter(adapter);
+
+//        @Override
+//        public boolean onCreateOptionsMenu() {
+//            Menu menu;
+//            getMenuInflater().inflate(R.menu.searchview, menu);
+//            MenuItem menuItem = menu.findItem(R.id.action_search);
+//            return super.onCreateOptionsMenu(menu);
+//        }
     }
 }

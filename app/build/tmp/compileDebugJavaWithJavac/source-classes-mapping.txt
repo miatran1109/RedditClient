@@ -4,6 +4,8 @@ vn/edu/usth/redditclient/MainActivity.java
  vn.edu.usth.redditclient.MainActivity
 vn/edu/usth/redditclient/PopularFragment.java
  vn.edu.usth.redditclient.PopularFragment
+vn/edu/usth/redditclient/NavFragment.java
+ vn.edu.usth.redditclient.NavFragment
 vn/edu/usth/redditclient/BuildConfig.java
  vn.edu.usth.redditclient.BuildConfig
 vn/edu/usth/redditclient/FakeNews.java
