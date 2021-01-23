@@ -26,11 +26,11 @@
 18        android:supportsRtl="true"
 18-->D:\USTH\MobileApp\RedditClient\app\src\main\AndroidManifest.xml:10:9-35
 19        android:testOnly="true"
-20        android:theme="@style/Theme.AppCompat.NoActionBar" >
-20-->D:\USTH\MobileApp\RedditClient\app\src\main\AndroidManifest.xml:11:9-59
-21        <activity android:name="vn.edu.usth.redditclient.MainActivity" >
+20        android:theme="@style/Theme.RedditClient" >
+20-->D:\USTH\MobileApp\RedditClient\app\src\main\AndroidManifest.xml:11:9-50
+21        <activity android:name="vn.edu.usth.redditclient.Activity.MainActivity" >
 21-->D:\USTH\MobileApp\RedditClient\app\src\main\AndroidManifest.xml:13:9-19:20
-21-->D:\USTH\MobileApp\RedditClient\app\src\main\AndroidManifest.xml:13:19-47
+21-->D:\USTH\MobileApp\RedditClient\app\src\main\AndroidManifest.xml:13:19-56
 22            <intent-filter>
 22-->D:\USTH\MobileApp\RedditClient\app\src\main\AndroidManifest.xml:14:13-18:29
 23                <action android:name="android.intent.action.MAIN" />

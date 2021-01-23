@@ -1,16 +1,18 @@
-vn/edu/usth/redditclient/NewsFragment.java
- vn.edu.usth.redditclient.NewsFragment
-vn/edu/usth/redditclient/MainActivity.java
- vn.edu.usth.redditclient.MainActivity
-vn/edu/usth/redditclient/PopularFragment.java
- vn.edu.usth.redditclient.PopularFragment
-vn/edu/usth/redditclient/NavFragment.java
- vn.edu.usth.redditclient.NavFragment
+vn/edu/usth/redditclient/Fragment/PopularFragment.java
+ vn.edu.usth.redditclient.Fragment.PopularFragment
+vn/edu/usth/redditclient/Fragment/H.java
+ vn.edu.usth.redditclient.Fragment.H
+vn/edu/usth/redditclient/Fragment/NavFragment.java
+ vn.edu.usth.redditclient.Fragment.NavFragment
+vn/edu/usth/redditclient/Adapter/HomeFragmentPagerAdapter.java
+ vn.edu.usth.redditclient.Adapter.HomeFragmentPagerAdapter
+vn/edu/usth/redditclient/Fragment/NewsFragment.java
+ vn.edu.usth.redditclient.Fragment.NewsFragment
+vn/edu/usth/redditclient/Fragment/ReactFragment.java
+ vn.edu.usth.redditclient.Fragment.ReactFragment
+vn/edu/usth/redditclient/Fragment/FakeNews.java
+ vn.edu.usth.redditclient.Fragment.FakeNews
 vn/edu/usth/redditclient/BuildConfig.java
  vn.edu.usth.redditclient.BuildConfig
-vn/edu/usth/redditclient/FakeNews.java
- vn.edu.usth.redditclient.FakeNews
-vn/edu/usth/redditclient/H.java
- vn.edu.usth.redditclient.H
-vn/edu/usth/redditclient/HomeFragmentPagerAdapter.java
- vn.edu.usth.redditclient.HomeFragmentPagerAdapter
+vn/edu/usth/redditclient/Activity/MainActivity.java
+ vn.edu.usth.redditclient.Activity.MainActivity

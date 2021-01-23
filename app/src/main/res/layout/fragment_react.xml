@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.ReactFragment"
+    android:orientation="horizontal"
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="15dp">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_marginLeft="10dp"
+        android:id="@+id/voting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="2">
+
+        <ImageView
+            android:id="@+id/vote_up_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="3dp"
+            android:adjustViewBounds="true"
+            android:maxWidth="15dp"
+            android:maxHeight="15dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/long_arrow_alt_up_solid" />
+
+        <TextView
+            android:id="@+id/vote_up_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:textColor="@color/black"
+            android:text="69.9k" />
+
+        <ImageView
+            android:id="@+id/vote_down_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:layout_marginRight="5dp"
+            android:adjustViewBounds="true"
+            android:maxWidth="15dp"
+            android:maxHeight="15dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/long_arrow_alt_down_solid" />
+        <TextView
+            android:id="@+id/vote_down_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:textColor="@color/black"
+            android:text="69.9k" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/comment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="2">
+
+        <ImageView
+            android:id="@+id/comment_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="3dp"
+            android:adjustViewBounds="true"
+            android:maxWidth="15dp"
+            android:maxHeight="15dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/comment_alt_solid" />
+
+        <TextView
+            android:id="@+id/comment_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="100" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/share"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="2">
+
+        <ImageView
+            android:id="@+id/share_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="3dp"
+            android:adjustViewBounds="true"
+            android:maxWidth="15dp"
+            android:maxHeight="15dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/share_square_solid" />
+
+        <TextView
+            android:id="@+id/share_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="Share" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/gift"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/gift_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:layout_marginTop="3dp"
+            android:maxWidth="15dp"
+            android:maxHeight="15dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/gift_solid" />
+    </LinearLayout>
+</LinearLayout>

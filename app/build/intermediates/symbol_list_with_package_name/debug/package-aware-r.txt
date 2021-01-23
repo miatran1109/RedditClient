@@ -1560,7 +1560,9 @@ drawable dot
 drawable ellipsis_h_solid
 drawable fire
 drawable fire_1
+drawable gift_red
 drawable gift_solid
+drawable ic_baseline_arrow_upward_24
 drawable ic_baseline_search_24
 drawable ic_launcher_background
 drawable ic_launcher_foreground
@@ -1587,7 +1589,6 @@ drawable mtrl_ic_error
 drawable mtrl_popupmenu_background
 drawable mtrl_popupmenu_background_dark
 drawable mtrl_tabs_default_indicator
-drawable my_cookie
 drawable navigation_empty_icon
 drawable notification_action_background
 drawable notification_bg
@@ -1605,8 +1606,6 @@ drawable pic
 drawable pic_square
 drawable pin
 drawable posting
-drawable rec_black
-drawable rec_white
 drawable reddit_logo
 drawable rocket_solid_1
 drawable share_square_solid
@@ -1618,8 +1617,9 @@ drawable test_custom_background
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
 drawable vector
+drawable vote_down_blue
+drawable vote_up_red
 drawable white_button
-drawable white_rec
 font arial
 font arial_bold
 font hel_bold
@@ -1740,6 +1740,8 @@ id clip_horizontal
 id clip_vertical
 id collapseActionView
 id comment
+id comment_button
+id comment_number
 id confirm_button
 id container
 id content
@@ -1801,6 +1803,7 @@ id forever
 id ghost_view
 id ghost_view_holder
 id gift
+id gift_button
 id gone
 id graph
 id graph_wrap
@@ -1873,7 +1876,6 @@ id never
 id news_contents
 id news_contents_scroll
 id news_day
-id news_info
 id news_tags
 id news_title
 id news_title_tag
@@ -1935,6 +1937,8 @@ id search_voice_btn
 id select_dialog_listview
 id selected
 id share
+id share_button
+id share_text
 id shortcut
 id showCustom
 id showHome
@@ -2019,6 +2023,10 @@ id useLogo
 id view_offset_helper
 id view_pager
 id visible
+id vote_down_button
+id vote_down_number
+id vote_up_button
+id vote_up_number
 id voting
 id withText
 id withinBounds
@@ -2086,6 +2094,7 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_main
+layout activity_post_react
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
@@ -2108,6 +2117,7 @@ layout fragment_home_pager_adapter
 layout fragment_nav
 layout fragment_news
 layout fragment_popular
+layout fragment_react
 layout mtrl_alert_dialog
 layout mtrl_alert_dialog_actions
 layout mtrl_alert_dialog_title

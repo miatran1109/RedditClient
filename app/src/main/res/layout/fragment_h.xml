@@ -5,7 +5,7 @@
     android:layout_height="wrap_content"
     android:background="@color/news"
     android:orientation="vertical"
-    tools:context=".PopularFragment">
+    tools:context=".Fragment.PopularFragment">
 
     <!-- TODO: Update blank fragment layout -->
 
@@ -79,7 +79,7 @@
 
     <fragment
         android:id="@+id/detailFragment"
-        android:name="vn.edu.usth.redditclient.FakeNews"
+        android:name="vn.edu.usth.redditclient.Fragment.FakeNews"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1"
@@ -87,7 +87,7 @@
 
     <fragment
         android:id="@+id/nav_"
-        android:name="vn.edu.usth.redditclient.NavFragment"
+        android:name="vn.edu.usth.redditclient.Fragment.NavFragment"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         tools:layout="@layout/fragment_nav"/>
