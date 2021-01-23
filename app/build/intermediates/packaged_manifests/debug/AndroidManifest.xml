@@ -18,6 +18,8 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.RedditClient" >
+        <activity android:name="vn.edu.usth.redditclient.Activity.ShareActivity" />
+        <activity android:name="vn.edu.usth.redditclient.Activity.DisplayCommentActivity" />
         <activity android:name="vn.edu.usth.redditclient.Activity.MainActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

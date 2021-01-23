@@ -74,6 +74,7 @@
             android:maxWidth="15dp"
             android:maxHeight="15dp"
             android:scaleType="fitCenter"
+            android:onClick="cmt"
             android:src="@drawable/comment_alt_solid" />
 
         <TextView
@@ -100,6 +101,7 @@
             android:maxWidth="15dp"
             android:maxHeight="15dp"
             android:scaleType="fitCenter"
+            android:onClick="share"
             android:src="@drawable/share_square_solid" />
 
         <TextView

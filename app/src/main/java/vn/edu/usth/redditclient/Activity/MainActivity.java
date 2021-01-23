@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     //Manage buttons
-    //Vote-up, vote-down
+    //Vote-up, vote-down, gift: Change color when clicked
     boolean clicked = true;
     public void voteUp(View view){
         ImageView img = (ImageView) findViewById(R.id.vote_up_button);
@@ -70,5 +70,19 @@ public class MainActivity extends AppCompatActivity {
             img.setImageResource(R.drawable.gift_solid);
             Toast.makeText(getApplicationContext(), "Take back :<", Toast.LENGTH_SHORT).show();
         }
+    }
+
+    //Comment button: open comment layout
+    public void cmt(View view){
+        ImageView img = (ImageView) findViewById(R.id.comment_button);
+        Intent intent = new Intent(this, DisplayCommentActivity.class);
+        startActivity(intent);
+    }
+
+    //Share button: open share layout
+    public void share(View view){
+        ImageView img = (ImageView) findViewById(R.id.share_button);
+        Intent intent = new Intent(this, ShareActivity.class);
+        startActivity(intent);
     }
 }
