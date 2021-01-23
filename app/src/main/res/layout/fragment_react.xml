@@ -26,6 +26,7 @@
             android:maxWidth="15dp"
             android:maxHeight="15dp"
             android:scaleType="fitCenter"
+            android:onClick="voteUp"
             android:src="@drawable/long_arrow_alt_up_solid" />
 
         <TextView
@@ -46,6 +47,7 @@
             android:maxWidth="15dp"
             android:maxHeight="15dp"
             android:scaleType="fitCenter"
+            android:onClick="voteDown"
             android:src="@drawable/long_arrow_alt_down_solid" />
         <TextView
             android:id="@+id/vote_down_number"
@@ -123,6 +125,7 @@
             android:maxWidth="15dp"
             android:maxHeight="15dp"
             android:scaleType="fitCenter"
+            android:onClick="gift"
             android:src="@drawable/gift_solid" />
     </LinearLayout>
 </LinearLayout>
