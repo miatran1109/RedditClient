@@ -3,12 +3,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:background="@color/news"
     android:orientation="vertical"
     tools:context=".Fragment.NewsFragment">
 
     <RelativeLayout
-        android:id="@+id/news_day"
+        android:id="@+id/news_date"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="5dp">
@@ -104,14 +105,19 @@
         </LinearLayout>
     </HorizontalScrollView>
 
-
-    <fragment
-        android:id="@+id/detailFragment"
-        android:name="vn.edu.usth.redditclient.Fragment.FakeNews"
+    <ListView
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        tools:layout="@layout/fragment_fake_news"/>
+        android:layout_height="match_parent"
+        android:id="@+id/listView" />
+
+
+<!--    <fragment-->
+<!--        android:id="@+id/detailFragment"-->
+<!--        android:name="vn.edu.usth.redditclient.Fragment.FakeNews"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="0dp"-->
+<!--        android:layout_weight="1"-->
+<!--        tools:layout="@layout/fragment_fake_news"/>-->
     <fragment
         android:id="@+id/nav_"
         android:name="vn.edu.usth.redditclient.Fragment.NavFragment"

@@ -15,13 +15,14 @@ public class HomeFragmentPagerAdapter extends FragmentPagerAdapter {
     public HomeFragmentPagerAdapter(FragmentManager fm) {
         super(fm);
     }
+
     @Override
     public int getCount() {
         return PAGE_COUNT; // number of pages for a ViewPager
     }
     @Override
     public Fragment getItem(int page) {
-// returns an instance of Fragment corresponding to the specified page
+    // returns an instance of Fragment corresponding to the specified page
         switch (page) {
             case 0: return new NewsFragment();
             case 1: return new H();
@@ -30,8 +31,9 @@ public class HomeFragmentPagerAdapter extends FragmentPagerAdapter {
         return new H(); // failsafe
     }
     @Override
-    public CharSequence getPageTitle(int page) {
+    public  CharSequence getPageTitle(int page) {
     // returns a tab title corresponding to the specified page
         return titles[page];
     }
+
 }

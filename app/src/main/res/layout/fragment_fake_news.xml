@@ -8,15 +8,10 @@
     tools:context=".Fragment.FakeNews">
 
     <!-- TODO: Update blank fragment layout -->
-    <ScrollView
-        android:id="@+id/news_contents_scroll"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/white">
-
         <androidx.cardview.widget.CardView
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:id="@+id/post_content">
             <RelativeLayout
                 android:id="@+id/news_contents"
                 android:layout_width="match_parent"
@@ -30,21 +25,7 @@
                     android:layout_marginStart="15dp"
                     android:layout_marginLeft="15dp">
                     <TextView
-                        android:id="@+id/category"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:textColor="@color/tags_text"
-                        android:layout_marginRight="5dp"
-                        android:text="@string/category"
-                        android:layout_marginEnd="5dp" />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginRight="5dp"
-                        android:text="@string/bullet"/>
-                    <TextView
-                        android:id="@+id/community"
+                        android:id="@+id/author"
                         android:layout_weight="1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -82,8 +63,7 @@
                     android:layout_height="wrap_content"
                     android:layout_below="@id/news_title_tag"
                     android:layout_marginLeft="15dp"
-                    android:layout_marginRight="15dp"
-                    android:text="Awards number" />
+                    android:layout_marginRight="15dp" />
 
                 <TextView
                     android:id="@+id/news_title"
@@ -92,31 +72,30 @@
                     android:layout_below="@id/awards"
                     android:layout_marginLeft="15dp"
                     android:layout_marginRight="15dp"
-                    android:text="Post title"
                     android:textColor="@color/black" />
 
                 <ImageView
                     android:id="@+id/post_img"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="300dp"
                     android:layout_below="@+id/news_title"
                     android:adjustViewBounds="true"
-                    android:maxWidth="400dp"
-                    android:maxHeight="300dp"
                     android:scaleType="fitCenter"
-                    android:layout_marginTop="10dp"
-                    android:src="@drawable/pic_square" />
+                    android:layout_marginTop="10dp"/>
 
                 <fragment
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_below="@id/post_img"
                     android:name="vn.edu.usth.redditclient.Fragment.ReactFragment"/>
-
+                <ProgressBar
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:id="@+id/cardProgressDialog"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"/>
             </RelativeLayout>
-
         </androidx.cardview.widget.CardView>
 
-    </ScrollView>
 
 </FrameLayout>

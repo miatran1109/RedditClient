@@ -1701,6 +1701,7 @@ id animateToEnd
 id animateToStart
 id asConfigured
 id async
+id author
 id auto
 id autoComplete
 id autoCompleteToEnd
@@ -1722,7 +1723,7 @@ id button_5
 id cache_measures
 id cancel_action
 id cancel_button
-id category
+id cardProgressDialog
 id center
 id center_horizontal
 id center_vertical
@@ -1743,7 +1744,6 @@ id collapseActionView
 id comment
 id comment_button
 id comment_number
-id community
 id confirm_button
 id container
 id content
@@ -1766,7 +1766,6 @@ id design_menu_item_action_area
 id design_menu_item_action_area_stub
 id design_menu_item_text
 id design_navigation_view
-id detailFragment
 id dialog_button
 id dimensions
 id direct
@@ -1836,6 +1835,9 @@ id line1
 id line3
 id linear
 id listMode
+id listView
+id listView1
+id listView2
 id list_item
 id masked
 id media_actions
@@ -1876,8 +1878,7 @@ id nav_bar
 id navigation_header_container
 id never
 id news_contents
-id news_contents_scroll
-id news_day
+id news_date
 id news_tags
 id news_title
 id news_title_tag
@@ -1905,6 +1906,7 @@ id pin
 id pop_bar
 id position
 id postLayout
+id post_content
 id post_img
 id progress_circular
 id progress_horizontal

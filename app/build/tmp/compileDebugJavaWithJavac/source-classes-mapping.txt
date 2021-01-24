@@ -8,6 +8,8 @@ vn/edu/usth/redditclient/PostAPI.java
  vn.edu.usth.redditclient.PostAPI
 vn/edu/usth/redditclient/Fragment/FakeNews.java
  vn.edu.usth.redditclient.Fragment.FakeNews
+vn/edu/usth/redditclient/ExtractXML.java
+ vn.edu.usth.redditclient.ExtractXML
 vn/edu/usth/redditclient/BuildConfig.java
  vn.edu.usth.redditclient.BuildConfig
 vn/edu/usth/redditclient/Activity/DisplayCommentActivity.java
@@ -20,15 +22,18 @@ vn/edu/usth/redditclient/data/Post.java
  vn.edu.usth.redditclient.data.Post
 vn/edu/usth/redditclient/Fragment/H.java
  vn.edu.usth.redditclient.Fragment.H
+vn/edu/usth/redditclient/data/entry/author.java
+ vn.edu.usth.redditclient.data.entry.author
+vn/edu/usth/redditclient/Adapter/InfoAdapter.java
+ vn.edu.usth.redditclient.Adapter.InfoAdapter
+ vn.edu.usth.redditclient.Adapter.InfoAdapter$1
+ vn.edu.usth.redditclient.Adapter.InfoAdapter$ViewHolder
+vn/edu/usth/redditclient/data/entry/entry.java
+ vn.edu.usth.redditclient.data.entry.entry
+vn/edu/usth/redditclient/data/postInfo.java
+ vn.edu.usth.redditclient.data.postInfo
+vn/edu/usth/redditclient/Activity/ShareActivity.java
+ vn.edu.usth.redditclient.Activity.ShareActivity
 vn/edu/usth/redditclient/Activity/MainActivity.java
  vn.edu.usth.redditclient.Activity.MainActivity
  vn.edu.usth.redditclient.Activity.MainActivity$1
-vn/edu/usth/redditclient/data/entry/entry.java
- vn.edu.usth.redditclient.data.entry.entry
-vn/edu/usth/redditclient/Adapter/PostAdapter.java
- vn.edu.usth.redditclient.Adapter.PostAdapter
- vn.edu.usth.redditclient.Adapter.PostAdapter$ViewHolder
-vn/edu/usth/redditclient/Activity/ShareActivity.java
- vn.edu.usth.redditclient.Activity.ShareActivity
-vn/edu/usth/redditclient/data/entry/author.java
- vn.edu.usth.redditclient.data.entry.author

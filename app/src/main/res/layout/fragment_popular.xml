@@ -207,13 +207,17 @@
             android:textColor="#666666" />
     </LinearLayout>
 
-    <fragment
-        android:id="@+id/detailFragment"
-        android:name="vn.edu.usth.redditclient.Fragment.FakeNews"
+    <ListView
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        tools:layout="@layout/fragment_fake_news"/>
+        android:layout_height="match_parent"
+        android:id="@+id/listView2" />
+<!--    <fragment-->
+<!--        android:id="@+id/detailFragment"-->
+<!--        android:name="vn.edu.usth.redditclient.Fragment.FakeNews"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="0dp"-->
+<!--        android:layout_weight="1"-->
+<!--        tools:layout="@layout/fragment_fake_news"/>-->
     <fragment
         android:id="@+id/nav_"
         android:name="vn.edu.usth.redditclient.Fragment.NavFragment"
