@@ -24,10 +24,6 @@
         "source": "D:\\USTH\\MobileApp\\RedditClient\\app\\src\\main\\res\\drawable\\fire.png"
     },
     {
-        "merged": "D:\\USTH\\MobileApp\\RedditClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_baseline_arrow_upward_24.png.flat",
-        "source": "D:\\USTH\\MobileApp\\RedditClient\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_baseline_arrow_upward_24.png"
-    },
-    {
         "merged": "D:\\USTH\\MobileApp\\RedditClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable_white_button.xml.flat",
         "source": "D:\\USTH\\MobileApp\\RedditClient\\app\\src\\main\\res\\drawable\\white_button.xml"
     },
@@ -50,10 +46,6 @@
     {
         "merged": "D:\\USTH\\MobileApp\\RedditClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable_fire_1.png.flat",
         "source": "D:\\USTH\\MobileApp\\RedditClient\\app\\src\\main\\res\\drawable\\fire_1.png"
-    },
-    {
-        "merged": "D:\\USTH\\MobileApp\\RedditClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_baseline_arrow_upward_24.png.flat",
-        "source": "D:\\USTH\\MobileApp\\RedditClient\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_baseline_arrow_upward_24.png"
     },
     {
         "merged": "D:\\USTH\\MobileApp\\RedditClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable_gift_red.png.flat",
@@ -96,10 +88,6 @@
         "source": "D:\\USTH\\MobileApp\\RedditClient\\app\\src\\main\\res\\drawable\\chat.png"
     },
     {
-        "merged": "D:\\USTH\\MobileApp\\RedditClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_baseline_arrow_upward_24.png.flat",
-        "source": "D:\\USTH\\MobileApp\\RedditClient\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\ic_baseline_arrow_upward_24.png"
-    },
-    {
         "merged": "D:\\USTH\\MobileApp\\RedditClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable_mail.png.flat",
         "source": "D:\\USTH\\MobileApp\\RedditClient\\app\\src\\main\\res\\drawable\\mail.png"
     },
@@ -134,10 +122,6 @@
     {
         "merged": "D:\\USTH\\MobileApp\\RedditClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable_blank_circle.png.flat",
         "source": "D:\\USTH\\MobileApp\\RedditClient\\app\\src\\main\\res\\drawable\\blank_circle.png"
-    },
-    {
-        "merged": "D:\\USTH\\MobileApp\\RedditClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_baseline_arrow_upward_24.png.flat",
-        "source": "D:\\USTH\\MobileApp\\RedditClient\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_baseline_arrow_upward_24.png"
     },
     {
         "merged": "D:\\USTH\\MobileApp\\RedditClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable_gift_solid.png.flat",
@@ -176,14 +160,6 @@
         "source": "D:\\USTH\\MobileApp\\RedditClient\\app\\src\\main\\res\\layout\\fragment_h.xml"
     },
     {
-        "merged": "D:\\USTH\\MobileApp\\RedditClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_baseline_arrow_upward_24.png.flat",
-        "source": "D:\\USTH\\MobileApp\\RedditClient\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_baseline_arrow_upward_24.png"
-    },
-    {
-        "merged": "D:\\USTH\\MobileApp\\RedditClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_baseline_arrow_upward_24.png.flat",
-        "source": "D:\\USTH\\MobileApp\\RedditClient\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_baseline_arrow_upward_24.png"
-    },
-    {
         "merged": "D:\\USTH\\MobileApp\\RedditClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable_small_tech.png.flat",
         "source": "D:\\USTH\\MobileApp\\RedditClient\\app\\src\\main\\res\\drawable\\small_tech.png"
     },
@@ -214,6 +190,10 @@
     {
         "merged": "D:\\USTH\\MobileApp\\RedditClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable_long_arrow_alt_down_solid.png.flat",
         "source": "D:\\USTH\\MobileApp\\RedditClient\\app\\src\\main\\res\\drawable\\long_arrow_alt_down_solid.png"
+    },
+    {
+        "merged": "D:\\USTH\\MobileApp\\RedditClient\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_display_comment.xml.flat",
+        "source": "D:\\USTH\\MobileApp\\RedditClient\\app\\src\\main\\res\\layout\\activity_display_comment.xml"
     },
     {
         "merged": "D:\\USTH\\MobileApp\\RedditClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_launcher_background.png.flat",
@@ -256,16 +236,12 @@
         "source": "D:\\USTH\\MobileApp\\RedditClient\\app\\src\\main\\res\\font\\helvetica.ttf"
     },
     {
-        "merged": "D:\\USTH\\MobileApp\\RedditClient\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
-        "source": "D:\\USTH\\MobileApp\\RedditClient\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
-    },
-    {
         "merged": "D:\\USTH\\MobileApp\\RedditClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable_vote_down_blue.png.flat",
         "source": "D:\\USTH\\MobileApp\\RedditClient\\app\\src\\main\\res\\drawable\\vote_down_blue.png"
     },
     {
-        "merged": "D:\\USTH\\MobileApp\\RedditClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_baseline_arrow_upward_24.xml.flat",
-        "source": "D:\\USTH\\MobileApp\\RedditClient\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_baseline_arrow_upward_24.xml"
+        "merged": "D:\\USTH\\MobileApp\\RedditClient\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "D:\\USTH\\MobileApp\\RedditClient\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
     },
     {
         "merged": "D:\\USTH\\MobileApp\\RedditClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_launcher_background.png.flat",
@@ -274,6 +250,10 @@
     {
         "merged": "D:\\USTH\\MobileApp\\RedditClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_baseline_search_24.png.flat",
         "source": "D:\\USTH\\MobileApp\\RedditClient\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_baseline_search_24.png"
+    },
+    {
+        "merged": "D:\\USTH\\MobileApp\\RedditClient\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_share2.xml.flat",
+        "source": "D:\\USTH\\MobileApp\\RedditClient\\app\\src\\main\\res\\layout\\activity_share2.xml"
     },
     {
         "merged": "D:\\USTH\\MobileApp\\RedditClient\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_baseline_search_24.xml.flat",

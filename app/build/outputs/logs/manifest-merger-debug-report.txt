@@ -1,16 +1,20 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\USTH\MobileApp\RedditClient\app\src\main\AndroidManifest.xml:2:1-22:12
-INJECTED from D:\USTH\MobileApp\RedditClient\app\src\main\AndroidManifest.xml:2:1-22:12
-INJECTED from D:\USTH\MobileApp\RedditClient\app\src\main\AndroidManifest.xml:2:1-22:12
-INJECTED from D:\USTH\MobileApp\RedditClient\app\src\main\AndroidManifest.xml:2:1-22:12
+ADDED from D:\USTH\MobileApp\RedditClient\app\src\main\AndroidManifest.xml:2:1-24:12
+INJECTED from D:\USTH\MobileApp\RedditClient\app\src\main\AndroidManifest.xml:2:1-24:12
+INJECTED from D:\USTH\MobileApp\RedditClient\app\src\main\AndroidManifest.xml:2:1-24:12
+INJECTED from D:\USTH\MobileApp\RedditClient\app\src\main\AndroidManifest.xml:2:1-24:12
+MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\mtn1910\.gradle\caches\transforms-2\files-2.1\6131b6bd4c7f07422046f47512bfed9d\multidex-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.android.material:material:1.2.1] C:\Users\mtn1910\.gradle\caches\transforms-2\files-2.1\c63d4a666c0a1ba98c2e2f24b9638d9e\material-1.2.1\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\mtn1910\.gradle\caches\transforms-2\files-2.1\b8718484daa03109e40dacfa216193fb\constraintlayout-2.0.4\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\mtn1910\.gradle\caches\transforms-2\files-2.1\4f9c7f78c15bb692cf0895b881aafbad\appcompat-1.2.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\mtn1910\.gradle\caches\transforms-2\files-2.1\c9e3c86218f0ebf08d011b105d6d4b36\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\mtn1910\.gradle\caches\transforms-2\files-2.1\db96b491b2e9804504d47eed9b68c19b\jetified-picasso-2.71828\AndroidManifest.xml:2:1-14:12
+MERGED from [androidx.recyclerview:recyclerview-selection:1.1.0-rc03] C:\Users\mtn1910\.gradle\caches\transforms-2\files-2.1\1c9ee1649c0b4c92ecb1884ab3f95d24\recyclerview-selection-1.1.0-rc03\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\mtn1910\.gradle\caches\transforms-2\files-2.1\1fa276bd61947c3e74ed195b3ad0a13b\jetified-viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\mtn1910\.gradle\caches\transforms-2\files-2.1\c85e1f195321245fafe1a599b5dddf47\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\mtn1910\.gradle\caches\transforms-2\files-2.1\3db056b7b2a67d9700cd1094de7f7779\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\mtn1910\.gradle\caches\transforms-2\files-2.1\129d7c6539a600a7346451cc911530ca\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\mtn1910\.gradle\caches\transforms-2\files-2.1\1fa276bd61947c3e74ed195b3ad0a13b\jetified-viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\mtn1910\.gradle\caches\transforms-2\files-2.1\bfe66e5c1e3890ed194fe4c90f780fb5\fragment-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\mtn1910\.gradle\caches\transforms-2\files-2.1\e9a886a277d45e4611014a26e73477d0\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\mtn1910\.gradle\caches\transforms-2\files-2.1\727f4567341fcf59ba6ec2fbb4290436\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
@@ -22,14 +26,14 @@ MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\mtn1910\.gra
 MERGED from [androidx.media:media:1.0.0] C:\Users\mtn1910\.gradle\caches\transforms-2\files-2.1\b52031778c3730d2e5cb2a6c88a2a2c6\media-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\mtn1910\.gradle\caches\transforms-2\files-2.1\087418591f402220f122a32114fbea96\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\mtn1910\.gradle\caches\transforms-2\files-2.1\1aafd20561bc3ee9f58c28dfa8215062\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\mtn1910\.gradle\caches\transforms-2\files-2.1\3a40d00373143d317b2bee08071df362\loader-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.activity:activity:1.0.0] C:\Users\mtn1910\.gradle\caches\transforms-2\files-2.1\1f30c507ad647a41e33ed33c8e0ba570\jetified-activity-1.0.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\mtn1910\.gradle\caches\transforms-2\files-2.1\c85e1f195321245fafe1a599b5dddf47\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\mtn1910\.gradle\caches\transforms-2\files-2.1\0b21398ec4672209e12f9d44aaf124af\slidingpanelayout-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.customview:customview:1.0.0] C:\Users\mtn1910\.gradle\caches\transforms-2\files-2.1\da4859f2c8e5d53f282ea268af4c5fee\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\mtn1910\.gradle\caches\transforms-2\files-2.1\3a40d00373143d317b2bee08071df362\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\mtn1910\.gradle\caches\transforms-2\files-2.1\1f30c507ad647a41e33ed33c8e0ba570\jetified-activity-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\mtn1910\.gradle\caches\transforms-2\files-2.1\20725fa20214e86eb8fa55394d5d409e\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\mtn1910\.gradle\caches\transforms-2\files-2.1\247f3bbc11fc5188f3d3375e9cc247ac\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.core:core:1.3.1] C:\Users\mtn1910\.gradle\caches\transforms-2\files-2.1\c560b8721f05ca12656603dd382025ab\core-1.3.1\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\mtn1910\.gradle\caches\transforms-2\files-2.1\0aba193bd00fb1b7c7cdddf1ab1f36bc\exifinterface-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\mtn1910\.gradle\caches\transforms-2\files-2.1\fa40148eab14a6d2386ba091992d3749\versionedparcelable-1.1.0\AndroidManifest.xml:17:1-27:12
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\mtn1910\.gradle\caches\transforms-2\files-2.1\a22fab001772e3213fd3f87fdd80b5c6\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\mtn1910\.gradle\caches\transforms-2\files-2.1\7814cceeb7ac44ad46459a3c3c62875b\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
@@ -42,29 +46,35 @@ MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\mtn1910\.grad
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\mtn1910\.gradle\caches\transforms-2\files-2.1\06bc4641de51b04d4df94808d6e05292\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\mtn1910\.gradle\caches\transforms-2\files-2.1\1b64911e987df0fea019408e241659d7\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\mtn1910\.gradle\caches\transforms-2\files-2.1\a77c810a56173ccf6fb339f045a6aacd\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:17:1-24:12
-INJECTED from D:\USTH\MobileApp\RedditClient\app\src\main\AndroidManifest.xml:2:1-22:12
-INJECTED from D:\USTH\MobileApp\RedditClient\app\src\main\AndroidManifest.xml:2:1-22:12
-INJECTED from D:\USTH\MobileApp\RedditClient\app\src\main\AndroidManifest.xml:2:1-22:12
+INJECTED from D:\USTH\MobileApp\RedditClient\app\src\main\AndroidManifest.xml:2:1-24:12
+INJECTED from D:\USTH\MobileApp\RedditClient\app\src\main\AndroidManifest.xml:2:1-24:12
+INJECTED from D:\USTH\MobileApp\RedditClient\app\src\main\AndroidManifest.xml:2:1-24:12
 	package
 		ADDED from D:\USTH\MobileApp\RedditClient\app\src\main\AndroidManifest.xml:3:5-39
 		INJECTED from D:\USTH\MobileApp\RedditClient\app\src\main\AndroidManifest.xml
 		INJECTED from D:\USTH\MobileApp\RedditClient\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from D:\USTH\MobileApp\RedditClient\app\src\main\AndroidManifest.xml
-		ADDED from D:\USTH\MobileApp\RedditClient\app\src\main\AndroidManifest.xml:2:1-22:12
+		ADDED from D:\USTH\MobileApp\RedditClient\app\src\main\AndroidManifest.xml:2:1-24:12
 		INJECTED from D:\USTH\MobileApp\RedditClient\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from D:\USTH\MobileApp\RedditClient\app\src\main\AndroidManifest.xml
-		ADDED from D:\USTH\MobileApp\RedditClient\app\src\main\AndroidManifest.xml:2:1-22:12
+		ADDED from D:\USTH\MobileApp\RedditClient\app\src\main\AndroidManifest.xml:2:1-24:12
 		INJECTED from D:\USTH\MobileApp\RedditClient\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from D:\USTH\MobileApp\RedditClient\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from D:\USTH\MobileApp\RedditClient\app\src\main\AndroidManifest.xml:4:5-66
+	android:name
+		ADDED from D:\USTH\MobileApp\RedditClient\app\src\main\AndroidManifest.xml:4:22-64
 application
-ADDED from D:\USTH\MobileApp\RedditClient\app\src\main\AndroidManifest.xml:5:5-20:19
+ADDED from D:\USTH\MobileApp\RedditClient\app\src\main\AndroidManifest.xml:6:5-22:19
 MERGED from [com.google.android.material:material:1.2.1] C:\Users\mtn1910\.gradle\caches\transforms-2\files-2.1\c63d4a666c0a1ba98c2e2f24b9638d9e\material-1.2.1\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.2.1] C:\Users\mtn1910\.gradle\caches\transforms-2\files-2.1\c63d4a666c0a1ba98c2e2f24b9638d9e\material-1.2.1\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\mtn1910\.gradle\caches\transforms-2\files-2.1\b8718484daa03109e40dacfa216193fb\constraintlayout-2.0.4\AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\mtn1910\.gradle\caches\transforms-2\files-2.1\b8718484daa03109e40dacfa216193fb\constraintlayout-2.0.4\AndroidManifest.xml:9:5-20
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\mtn1910\.gradle\caches\transforms-2\files-2.1\db96b491b2e9804504d47eed9b68c19b\jetified-picasso-2.71828\AndroidManifest.xml:7:5-12:19
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\mtn1910\.gradle\caches\transforms-2\files-2.1\db96b491b2e9804504d47eed9b68c19b\jetified-picasso-2.71828\AndroidManifest.xml:7:5-12:19
 MERGED from [androidx.core:core:1.3.1] C:\Users\mtn1910\.gradle\caches\transforms-2\files-2.1\c560b8721f05ca12656603dd382025ab\core-1.3.1\AndroidManifest.xml:24:5-89
 MERGED from [androidx.core:core:1.3.1] C:\Users\mtn1910\.gradle\caches\transforms-2\files-2.1\c560b8721f05ca12656603dd382025ab\core-1.3.1\AndroidManifest.xml:24:5-89
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\mtn1910\.gradle\caches\transforms-2\files-2.1\fa40148eab14a6d2386ba091992d3749\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
@@ -72,35 +82,45 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\mt
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.3.1] C:\Users\mtn1910\.gradle\caches\transforms-2\files-2.1\c560b8721f05ca12656603dd382025ab\core-1.3.1\AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from D:\USTH\MobileApp\RedditClient\app\src\main\AndroidManifest.xml:10:9-35
+		ADDED from D:\USTH\MobileApp\RedditClient\app\src\main\AndroidManifest.xml:11:9-35
 	android:label
-		ADDED from D:\USTH\MobileApp\RedditClient\app\src\main\AndroidManifest.xml:8:9-41
+		ADDED from D:\USTH\MobileApp\RedditClient\app\src\main\AndroidManifest.xml:9:9-41
 	android:roundIcon
-		ADDED from D:\USTH\MobileApp\RedditClient\app\src\main\AndroidManifest.xml:9:9-54
+		ADDED from D:\USTH\MobileApp\RedditClient\app\src\main\AndroidManifest.xml:10:9-54
 	android:icon
-		ADDED from D:\USTH\MobileApp\RedditClient\app\src\main\AndroidManifest.xml:7:9-43
+		ADDED from D:\USTH\MobileApp\RedditClient\app\src\main\AndroidManifest.xml:8:9-43
 	android:allowBackup
-		ADDED from D:\USTH\MobileApp\RedditClient\app\src\main\AndroidManifest.xml:6:9-35
+		ADDED from D:\USTH\MobileApp\RedditClient\app\src\main\AndroidManifest.xml:7:9-35
 	android:theme
-		ADDED from D:\USTH\MobileApp\RedditClient\app\src\main\AndroidManifest.xml:11:9-50
+		ADDED from D:\USTH\MobileApp\RedditClient\app\src\main\AndroidManifest.xml:12:9-50
+activity#vn.edu.usth.redditclient.Activity.ShareActivity
+ADDED from D:\USTH\MobileApp\RedditClient\app\src\main\AndroidManifest.xml:13:9-69
+	android:name
+		ADDED from D:\USTH\MobileApp\RedditClient\app\src\main\AndroidManifest.xml:13:19-57
+activity#vn.edu.usth.redditclient.Activity.DisplayCommentActivity
+ADDED from D:\USTH\MobileApp\RedditClient\app\src\main\AndroidManifest.xml:14:9-69
+	android:name
+		ADDED from D:\USTH\MobileApp\RedditClient\app\src\main\AndroidManifest.xml:14:19-66
 activity#vn.edu.usth.redditclient.Activity.MainActivity
-ADDED from D:\USTH\MobileApp\RedditClient\app\src\main\AndroidManifest.xml:13:9-19:20
+ADDED from D:\USTH\MobileApp\RedditClient\app\src\main\AndroidManifest.xml:15:9-21:20
 	android:name
-		ADDED from D:\USTH\MobileApp\RedditClient\app\src\main\AndroidManifest.xml:13:19-56
+		ADDED from D:\USTH\MobileApp\RedditClient\app\src\main\AndroidManifest.xml:15:19-56
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from D:\USTH\MobileApp\RedditClient\app\src\main\AndroidManifest.xml:14:13-18:29
+ADDED from D:\USTH\MobileApp\RedditClient\app\src\main\AndroidManifest.xml:16:13-20:29
 action#android.intent.action.MAIN
-ADDED from D:\USTH\MobileApp\RedditClient\app\src\main\AndroidManifest.xml:15:17-69
+ADDED from D:\USTH\MobileApp\RedditClient\app\src\main\AndroidManifest.xml:17:17-69
 	android:name
-		ADDED from D:\USTH\MobileApp\RedditClient\app\src\main\AndroidManifest.xml:15:25-66
+		ADDED from D:\USTH\MobileApp\RedditClient\app\src\main\AndroidManifest.xml:17:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\USTH\MobileApp\RedditClient\app\src\main\AndroidManifest.xml:17:17-77
+ADDED from D:\USTH\MobileApp\RedditClient\app\src\main\AndroidManifest.xml:19:17-77
 	android:name
-		ADDED from D:\USTH\MobileApp\RedditClient\app\src\main\AndroidManifest.xml:17:27-74
+		ADDED from D:\USTH\MobileApp\RedditClient\app\src\main\AndroidManifest.xml:19:27-74
 uses-sdk
 INJECTED from D:\USTH\MobileApp\RedditClient\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\USTH\MobileApp\RedditClient\app\src\main\AndroidManifest.xml
 INJECTED from D:\USTH\MobileApp\RedditClient\app\src\main\AndroidManifest.xml
+MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\mtn1910\.gradle\caches\transforms-2\files-2.1\6131b6bd4c7f07422046f47512bfed9d\multidex-2.0.0\AndroidManifest.xml:20:5-43
+MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\mtn1910\.gradle\caches\transforms-2\files-2.1\6131b6bd4c7f07422046f47512bfed9d\multidex-2.0.0\AndroidManifest.xml:20:5-43
 MERGED from [com.google.android.material:material:1.2.1] C:\Users\mtn1910\.gradle\caches\transforms-2\files-2.1\c63d4a666c0a1ba98c2e2f24b9638d9e\material-1.2.1\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.material:material:1.2.1] C:\Users\mtn1910\.gradle\caches\transforms-2\files-2.1\c63d4a666c0a1ba98c2e2f24b9638d9e\material-1.2.1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\mtn1910\.gradle\caches\transforms-2\files-2.1\b8718484daa03109e40dacfa216193fb\constraintlayout-2.0.4\AndroidManifest.xml:5:5-7:41
@@ -109,12 +129,18 @@ MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\mtn1910\.gradle\caches
 MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\mtn1910\.gradle\caches\transforms-2\files-2.1\4f9c7f78c15bb692cf0895b881aafbad\appcompat-1.2.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\mtn1910\.gradle\caches\transforms-2\files-2.1\c9e3c86218f0ebf08d011b105d6d4b36\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\mtn1910\.gradle\caches\transforms-2\files-2.1\c9e3c86218f0ebf08d011b105d6d4b36\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\mtn1910\.gradle\caches\transforms-2\files-2.1\db96b491b2e9804504d47eed9b68c19b\jetified-picasso-2.71828\AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\mtn1910\.gradle\caches\transforms-2\files-2.1\db96b491b2e9804504d47eed9b68c19b\jetified-picasso-2.71828\AndroidManifest.xml:5:5-44
+MERGED from [androidx.recyclerview:recyclerview-selection:1.1.0-rc03] C:\Users\mtn1910\.gradle\caches\transforms-2\files-2.1\1c9ee1649c0b4c92ecb1884ab3f95d24\recyclerview-selection-1.1.0-rc03\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview-selection:1.1.0-rc03] C:\Users\mtn1910\.gradle\caches\transforms-2\files-2.1\1c9ee1649c0b4c92ecb1884ab3f95d24\recyclerview-selection-1.1.0-rc03\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\mtn1910\.gradle\caches\transforms-2\files-2.1\1fa276bd61947c3e74ed195b3ad0a13b\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\mtn1910\.gradle\caches\transforms-2\files-2.1\1fa276bd61947c3e74ed195b3ad0a13b\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\mtn1910\.gradle\caches\transforms-2\files-2.1\c85e1f195321245fafe1a599b5dddf47\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\mtn1910\.gradle\caches\transforms-2\files-2.1\c85e1f195321245fafe1a599b5dddf47\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\mtn1910\.gradle\caches\transforms-2\files-2.1\3db056b7b2a67d9700cd1094de7f7779\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\mtn1910\.gradle\caches\transforms-2\files-2.1\3db056b7b2a67d9700cd1094de7f7779\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\mtn1910\.gradle\caches\transforms-2\files-2.1\129d7c6539a600a7346451cc911530ca\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\mtn1910\.gradle\caches\transforms-2\files-2.1\129d7c6539a600a7346451cc911530ca\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\mtn1910\.gradle\caches\transforms-2\files-2.1\1fa276bd61947c3e74ed195b3ad0a13b\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\mtn1910\.gradle\caches\transforms-2\files-2.1\1fa276bd61947c3e74ed195b3ad0a13b\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\mtn1910\.gradle\caches\transforms-2\files-2.1\bfe66e5c1e3890ed194fe4c90f780fb5\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\mtn1910\.gradle\caches\transforms-2\files-2.1\bfe66e5c1e3890ed194fe4c90f780fb5\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\mtn1910\.gradle\caches\transforms-2\files-2.1\e9a886a277d45e4611014a26e73477d0\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:20:5-22:41
@@ -137,22 +163,22 @@ MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\mtn1910\.
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\mtn1910\.gradle\caches\transforms-2\files-2.1\087418591f402220f122a32114fbea96\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\mtn1910\.gradle\caches\transforms-2\files-2.1\1aafd20561bc3ee9f58c28dfa8215062\viewpager-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\mtn1910\.gradle\caches\transforms-2\files-2.1\1aafd20561bc3ee9f58c28dfa8215062\viewpager-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\mtn1910\.gradle\caches\transforms-2\files-2.1\3a40d00373143d317b2bee08071df362\loader-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\mtn1910\.gradle\caches\transforms-2\files-2.1\3a40d00373143d317b2bee08071df362\loader-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.activity:activity:1.0.0] C:\Users\mtn1910\.gradle\caches\transforms-2\files-2.1\1f30c507ad647a41e33ed33c8e0ba570\jetified-activity-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.activity:activity:1.0.0] C:\Users\mtn1910\.gradle\caches\transforms-2\files-2.1\1f30c507ad647a41e33ed33c8e0ba570\jetified-activity-1.0.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\mtn1910\.gradle\caches\transforms-2\files-2.1\c85e1f195321245fafe1a599b5dddf47\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\mtn1910\.gradle\caches\transforms-2\files-2.1\c85e1f195321245fafe1a599b5dddf47\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\mtn1910\.gradle\caches\transforms-2\files-2.1\0b21398ec4672209e12f9d44aaf124af\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\mtn1910\.gradle\caches\transforms-2\files-2.1\0b21398ec4672209e12f9d44aaf124af\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.customview:customview:1.0.0] C:\Users\mtn1910\.gradle\caches\transforms-2\files-2.1\da4859f2c8e5d53f282ea268af4c5fee\customview-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.customview:customview:1.0.0] C:\Users\mtn1910\.gradle\caches\transforms-2\files-2.1\da4859f2c8e5d53f282ea268af4c5fee\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\mtn1910\.gradle\caches\transforms-2\files-2.1\3a40d00373143d317b2bee08071df362\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\mtn1910\.gradle\caches\transforms-2\files-2.1\3a40d00373143d317b2bee08071df362\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\mtn1910\.gradle\caches\transforms-2\files-2.1\1f30c507ad647a41e33ed33c8e0ba570\jetified-activity-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\mtn1910\.gradle\caches\transforms-2\files-2.1\1f30c507ad647a41e33ed33c8e0ba570\jetified-activity-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\mtn1910\.gradle\caches\transforms-2\files-2.1\20725fa20214e86eb8fa55394d5d409e\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\mtn1910\.gradle\caches\transforms-2\files-2.1\20725fa20214e86eb8fa55394d5d409e\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\mtn1910\.gradle\caches\transforms-2\files-2.1\247f3bbc11fc5188f3d3375e9cc247ac\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\mtn1910\.gradle\caches\transforms-2\files-2.1\247f3bbc11fc5188f3d3375e9cc247ac\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.core:core:1.3.1] C:\Users\mtn1910\.gradle\caches\transforms-2\files-2.1\c560b8721f05ca12656603dd382025ab\core-1.3.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.core:core:1.3.1] C:\Users\mtn1910\.gradle\caches\transforms-2\files-2.1\c560b8721f05ca12656603dd382025ab\core-1.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\mtn1910\.gradle\caches\transforms-2\files-2.1\0aba193bd00fb1b7c7cdddf1ab1f36bc\exifinterface-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\mtn1910\.gradle\caches\transforms-2\files-2.1\0aba193bd00fb1b7c7cdddf1ab1f36bc\exifinterface-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\mtn1910\.gradle\caches\transforms-2\files-2.1\fa40148eab14a6d2386ba091992d3749\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\mtn1910\.gradle\caches\transforms-2\files-2.1\fa40148eab14a6d2386ba091992d3749\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\mtn1910\.gradle\caches\transforms-2\files-2.1\a22fab001772e3213fd3f87fdd80b5c6\documentfile-1.0.0\AndroidManifest.xml:20:5-44
@@ -187,3 +213,11 @@ INJECTED from D:\USTH\MobileApp\RedditClient\app\src\main\AndroidManifest.xml
 		INJECTED from D:\USTH\MobileApp\RedditClient\app\src\main\AndroidManifest.xml
 		ADDED from D:\USTH\MobileApp\RedditClient\app\src\main\AndroidManifest.xml
 		INJECTED from D:\USTH\MobileApp\RedditClient\app\src\main\AndroidManifest.xml
+provider#com.squareup.picasso.PicassoProvider
+ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\mtn1910\.gradle\caches\transforms-2\files-2.1\db96b491b2e9804504d47eed9b68c19b\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
+	android:authorities
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\mtn1910\.gradle\caches\transforms-2\files-2.1\db96b491b2e9804504d47eed9b68c19b\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
+	android:exported
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\mtn1910\.gradle\caches\transforms-2\files-2.1\db96b491b2e9804504d47eed9b68c19b\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
+	android:name
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\mtn1910\.gradle\caches\transforms-2\files-2.1\db96b491b2e9804504d47eed9b68c19b\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64

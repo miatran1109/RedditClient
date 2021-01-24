@@ -1562,7 +1562,6 @@ drawable fire
 drawable fire_1
 drawable gift_red
 drawable gift_solid
-drawable ic_baseline_arrow_upward_24
 drawable ic_baseline_search_24
 drawable ic_launcher_background
 drawable ic_launcher_foreground
@@ -1608,6 +1607,7 @@ drawable pin
 drawable posting
 drawable reddit_logo
 drawable rocket_solid_1
+drawable selection_band_overlay
 drawable share_square_solid
 drawable small_pic
 drawable small_science
@@ -1722,6 +1722,7 @@ id button_5
 id cache_measures
 id cancel_action
 id cancel_button
+id category
 id center
 id center_horizontal
 id center_vertical
@@ -1742,6 +1743,7 @@ id collapseActionView
 id comment
 id comment_button
 id comment_number
+id community
 id confirm_button
 id container
 id content
@@ -1903,6 +1905,7 @@ id pin
 id pop_bar
 id position
 id postLayout
+id post_img
 id progress_circular
 id progress_horizontal
 id radio
@@ -2001,7 +2004,6 @@ id textinput_suffix_text
 id time
 id title
 id titleDividerNoCustom
-id title_img
 id title_template
 id toggle
 id top
@@ -2019,6 +2021,7 @@ id unchecked
 id uniform
 id unlabeled
 id up
+id updated
 id useLogo
 id view_offset_helper
 id view_pager
@@ -2093,8 +2096,10 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_display_comment
 layout activity_main
 layout activity_post_react
+layout activity_share2
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
@@ -2214,11 +2219,13 @@ string appbar_scrolling_view_behavior
 string best_posts
 string bottom_sheet_behavior
 string bullet
+string category
 string character_counter_content_description
 string character_counter_overflowed_content_description
 string character_counter_pattern
 string chip_text
 string clear_text_end_icon_content_description
+string community
 string error_icon_content_description
 string exposed_dropdown_menu_content_description
 string fab_transformation_scrim_behavior
@@ -2274,6 +2281,7 @@ string path_password_strike_through
 string search_menu_title
 string status_bar_notification_info_overflow
 string title
+string updated
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
 style AndroidThemeColorAccentYellow

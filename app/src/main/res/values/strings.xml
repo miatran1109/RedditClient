@@ -3,8 +3,11 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="mon"><b>Monday</b>, 21 December</string>
-    <string name="bullet"><b>TECHNOLOGY</b> <b>\u2022</b> r/technology <b>\u2022</b> 4h</string>
+    <string name="bullet"><b>\u2022</b></string>
     <string name="title"><b>USTH takes part in “IMPROVING HUMAN RESOURCES IN INFORMATION AND TECHNOLOGY” fair</b></string>
     <string name="hot_posts">HOT POSTS</string>
     <string name="best_posts">BEST POSTS</string>
+    <string name="category">category</string>
+    <string name="community">community</string>
+    <string name="updated">updated</string>
 </resources>

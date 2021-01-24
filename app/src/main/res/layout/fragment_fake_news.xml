@@ -14,69 +14,109 @@
         android:layout_height="wrap_content"
         android:background="@color/white">
 
-        <RelativeLayout
-            android:id="@+id/news_contents"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="5dp">
-
-            <TextView
-                android:id="@+id/news_title_tag"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textColor="@color/tags_text"
-                android:layout_alignParentLeft="true"
-                android:layout_marginLeft="15dp"
-                android:layout_marginRight="15dp"
-                android:text="@string/bullet" />
-
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentRight="true"
-                android:layout_marginRight="15dp"
-                android:adjustViewBounds="true"
-                android:maxWidth="15dp"
-                android:maxHeight="15dp"
-                android:scaleType="fitCenter"
-                android:src="@drawable/ellipsis_h_solid" />
-
-            <TextView
-                android:id="@+id/awards"
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RelativeLayout
+                android:id="@+id/news_contents"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_below="@id/news_title_tag"
-                android:layout_marginLeft="15dp"
-                android:layout_marginRight="15dp"
-                android:text="18 Awards" />
+                android:layout_marginTop="5dp">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/news_title_tag"
+                    android:orientation="horizontal"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginLeft="15dp">
+                    <TextView
+                        android:id="@+id/category"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textColor="@color/tags_text"
+                        android:layout_marginRight="5dp"
+                        android:text="@string/category"
+                        android:layout_marginEnd="5dp" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp"
+                        android:text="@string/bullet"/>
+                    <TextView
+                        android:id="@+id/community"
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/tags_text"
+                        android:layout_marginRight="5dp"
+                        android:text="@string/community" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/bullet"/>
+                    <TextView
+                        android:id="@+id/updated"
+                        android:layout_weight="1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/tags_text"
+                        android:layout_marginRight="5dp"
+                        android:text="@string/updated" />
+                </LinearLayout>
 
-            <TextView
-                android:id="@+id/news_title"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_below="@id/awards"
-                android:layout_marginLeft="15dp"
-                android:layout_marginRight="15dp"
-                android:text="@string/title"
-                android:textColor="@color/black" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="15dp"
+                    android:adjustViewBounds="true"
+                    android:maxWidth="15dp"
+                    android:maxHeight="15dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/ellipsis_h_solid" />
 
-            <ImageView
-                android:id="@+id/title_img"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_below="@+id/news_title"
-                android:adjustViewBounds="true"
-                android:maxWidth="400dp"
-                android:maxHeight="300dp"
-                android:scaleType="fitCenter"
-                android:layout_marginTop="10dp"
-                android:src="@drawable/pic_square" />
+                <TextView
+                    android:id="@+id/awards"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/news_title_tag"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:text="Awards number" />
 
-            <fragment
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_below="@id/title_img"
-                android:name="vn.edu.usth.redditclient.Fragment.ReactFragment"/>
-        </RelativeLayout>
+                <TextView
+                    android:id="@+id/news_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/awards"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:text="Post title"
+                    android:textColor="@color/black" />
+
+                <ImageView
+                    android:id="@+id/post_img"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/news_title"
+                    android:adjustViewBounds="true"
+                    android:maxWidth="400dp"
+                    android:maxHeight="300dp"
+                    android:scaleType="fitCenter"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/pic_square" />
+
+                <fragment
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/post_img"
+                    android:name="vn.edu.usth.redditclient.Fragment.ReactFragment"/>
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
     </ScrollView>
+
 </FrameLayout>

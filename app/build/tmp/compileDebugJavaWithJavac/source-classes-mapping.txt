@@ -1,18 +1,34 @@
-vn/edu/usth/redditclient/Fragment/PopularFragment.java
- vn.edu.usth.redditclient.Fragment.PopularFragment
-vn/edu/usth/redditclient/Fragment/H.java
- vn.edu.usth.redditclient.Fragment.H
 vn/edu/usth/redditclient/Fragment/NavFragment.java
  vn.edu.usth.redditclient.Fragment.NavFragment
 vn/edu/usth/redditclient/Adapter/HomeFragmentPagerAdapter.java
  vn.edu.usth.redditclient.Adapter.HomeFragmentPagerAdapter
-vn/edu/usth/redditclient/Fragment/NewsFragment.java
- vn.edu.usth.redditclient.Fragment.NewsFragment
 vn/edu/usth/redditclient/Fragment/ReactFragment.java
  vn.edu.usth.redditclient.Fragment.ReactFragment
+vn/edu/usth/redditclient/PostAPI.java
+ vn.edu.usth.redditclient.PostAPI
 vn/edu/usth/redditclient/Fragment/FakeNews.java
  vn.edu.usth.redditclient.Fragment.FakeNews
 vn/edu/usth/redditclient/BuildConfig.java
  vn.edu.usth.redditclient.BuildConfig
+vn/edu/usth/redditclient/Activity/DisplayCommentActivity.java
+ vn.edu.usth.redditclient.Activity.DisplayCommentActivity
+vn/edu/usth/redditclient/Fragment/NewsFragment.java
+ vn.edu.usth.redditclient.Fragment.NewsFragment
+vn/edu/usth/redditclient/Fragment/PopularFragment.java
+ vn.edu.usth.redditclient.Fragment.PopularFragment
+vn/edu/usth/redditclient/data/Post.java
+ vn.edu.usth.redditclient.data.Post
+vn/edu/usth/redditclient/Fragment/H.java
+ vn.edu.usth.redditclient.Fragment.H
 vn/edu/usth/redditclient/Activity/MainActivity.java
  vn.edu.usth.redditclient.Activity.MainActivity
+ vn.edu.usth.redditclient.Activity.MainActivity$1
+vn/edu/usth/redditclient/data/entry/entry.java
+ vn.edu.usth.redditclient.data.entry.entry
+vn/edu/usth/redditclient/Adapter/PostAdapter.java
+ vn.edu.usth.redditclient.Adapter.PostAdapter
+ vn.edu.usth.redditclient.Adapter.PostAdapter$ViewHolder
+vn/edu/usth/redditclient/Activity/ShareActivity.java
+ vn.edu.usth.redditclient.Activity.ShareActivity
+vn/edu/usth/redditclient/data/entry/author.java
+ vn.edu.usth.redditclient.data.entry.author
